@@ -73,7 +73,8 @@
     [:div "1. Copy the code and put it into a text file"]
     [:div "2. Modify the source code. For instance, change the" [:span  {:style {:color "chocolate"}} " color"] " of something"]
     [:div "3. Drop the code."]]
-   [code-snippet]])
+   [code-snippet]
+   [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]])
 
 (rdom/render [my-component] (.getElementById js/document "app"))
 

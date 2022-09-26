@@ -70,9 +70,9 @@
     [:a {:href "https://codepen.io/Prestance/pen/PoOdZQw"} "codepen"]]
    [:h4 "Start hacking"]
    [:div
-    [:div "1. Copy the code and put it into a text file"]
-    [:div "2. Modify the source code. For instance, change the" [:span  {:style {:color "chocolate"}} " color"] " of something"]
-    [:div "3. Drop the code."]]
+    [:div "1. Copy the code and put it into a text file."]
+    [:div "2. Modify the source code. For instance, change the" [:span  {:style {:color "chocolate"}} " color"] " of something."]
+    [:div "3. Drop the code in the happy peaceful rectangle up there."]]
    [code-snippet]
    [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]])
 

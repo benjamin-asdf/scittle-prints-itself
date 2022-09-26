@@ -15,7 +15,7 @@
 (defn drop-area []
   [:div#drop-area
    {:style {:margin-top "1rem"
-            :height "6rem"
+            :height "7rem"
             :width "10rem"
             :background "Aquamarine"}
     :on-drag-enter

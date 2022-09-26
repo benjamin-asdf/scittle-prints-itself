@@ -74,7 +74,8 @@
     [:div "2. Modify the source code. For instance, change the" [:span  {:style {:color "chocolate"}} " color"] " of something."]
     [:div "3. Drop the code into the happy peaceful rectangle up there."]]
    [code-snippet]
-   [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]])
+   [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]
+   [:div [:a {:href "https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html"} "blog post"]]])
 
 (rdom/render [my-component] (.getElementById js/document "app"))
 

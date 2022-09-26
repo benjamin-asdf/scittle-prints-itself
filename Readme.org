@@ -1,1 +1,9 @@
 This is not a [[https://en.wikipedia.org/wiki/Quine_(computing)][Quine]].
+This is like code pen but it prints all of itself.
+You probably want to drag and drop a variation of the [[file:main.cljs][main file]] to
+get any useful result.
+
+up: https://benjamin-asdf.github.io/scittle-prints-itself
+
+blog post:
+[[https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html]]

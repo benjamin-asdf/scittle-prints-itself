@@ -15,9 +15,9 @@
 (defn drop-area []
   [:div#drop-area
    {:style {:margin-top "1rem"
-            :height "4rem"
-            :width "4rem"
-            :background "magenta"}
+            :height "6rem"
+            :width "10rem"
+            :background "Aquamarine"}
     :on-drag-enter
     (fn [_]
       (set! (.. (js/document.getElementById "drop-area") -style -background) "cyan"))

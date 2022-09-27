@@ -54,7 +54,7 @@
 
 (defn code-snippet []
   [:div
-   [:h3 "Currently rendering code: "]
+   [:h3 "Last evaluated code: "]
    [:div
     {:style {:background "gainsboro"}}
     [:pre

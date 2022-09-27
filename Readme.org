@@ -7,3 +7,8 @@ up: https://benjamin-asdf.github.io/scittle-prints-itself
 
 blog post:
 [[https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html]]
+
+* similar projects
+
+Makes an input field where you can eval clojurescript:
+https://github.com/NickCellino/clj-browser-eval

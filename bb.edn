@@ -4,8 +4,8 @@
    :git/url "github.com:babashka/sci.nrepl.git"}}
  :tasks
  {run-repl-server (shell "bb" "server.clj")
-  http-server
-  (shell "http-server" ":dir" "." ":port" "8080")
+  run-http-server
+  (shell "./run-http-server.clj" ":dir" "." ":port" "8080")
   browse
   {:depends [http-server]
    :task

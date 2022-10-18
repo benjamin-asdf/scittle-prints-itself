@@ -5,9 +5,9 @@
  :tasks
  {run-repl-server (shell "bb" "server.clj")
   run-http-server
-  (shell "./run-http-server.clj" ":dir" "." ":port" "8080")
+  (shell "./run-http-server.clj" ":dir" "." ":port" "8082")
   browse
-  {:depends [http-server]
+  {:depends [run-http-server]
    :task
-   (shell "xdg-open" "http://localhost:8080/")}
+   (shell "xdg-open" "http://localhost:8082/")}
   browse-gh-page (shell "xdg-open" "")}}

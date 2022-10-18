@@ -68,16 +68,18 @@
     {:style {:margin-top "0.5rem"}}
     "Similar thing on "
     [:a {:href "https://codepen.io/Prestance/pen/PoOdZQw"} "codepen"]]
+   [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]
+   [:div [:a {:href "https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html"} "blog post"]]
    [:h4 "Start hacking"]
    [:div
     [:div "1. Copy the code and put it into a text file."]
     [:div "2. Modify the source code. For instance, change the" [:span  {:style {:color "chocolate"}} " color"] " of something."]
     [:div "3. Drop the code into the happy peaceful rectangle up there."]]
-   [code-snippet]
-   [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]
-   [:div [:a {:href "https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html"} "blog post"]]])
+   [code-snippet]])
 
 (rdom/render [my-component] (.getElementById js/document "app"))
+
+
 
 (comment
   (swap! state assoc :code-text "foi110")

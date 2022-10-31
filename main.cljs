@@ -68,6 +68,7 @@
     {:style {:margin-top "0.5rem"}}
     "Similar thing on "
     [:a {:href "https://codepen.io/Prestance/pen/PoOdZQw"} "codepen"]]
+   [:div [:a {:href "https://babashka.org/scittle/"} "scittle"]]
    [:div [:a {:href "https://github.com/benjamin-asdf/scittle-prints-itself"} "github"]]
    [:div [:a {:href "https://benjamin-asdf.github.io/faster-than-light-memes/scittle-prints-itself.html"} "blog post"]]
    [:h4 "Start hacking"]
